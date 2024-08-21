@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main () {
+    int n, c = 50, v = 20, de = 10, ci = 5, d = 2, u = 1;
+    scanf("%d", &n);
+        printf("%d nota(s) de R$50\n", n/c);
+        n = n-(c*(n/c));
+        printf("%d nota(s) de R$20\n", n/v);
+        n = n-(v*(n/v));
+        printf("%d nota(s) de R$10\n", n/de);
+        n = n-(de*(n/de));
+        printf("%d nota(s) de R$5\n", n/ci);
+        n = n-(ci*(n/ci));
+        printf("%d nota(s) de R$2\n", n/d);
+        n = n-(d*(n/d));
+        printf("%d nota(s) de R$1\n", n/u);
+        n = n-(u*(n/u));
+    
+    return 0;
+}
